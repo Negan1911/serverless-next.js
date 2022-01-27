@@ -6281,7 +6281,7 @@ __metadata:
     "@types/jest": ^27.4.0
     "@types/node": 17.0.12
     "@types/yargs": 17.0.8
-    cdktf: 0.8.6
+    cdktf: 0.9.0
     cdktf-cli: 0.8.6
     constructs: 10.0.46
     esbuild: 0.14.13
@@ -8788,6 +8788,18 @@ __metadata:
   peerDependencies:
     constructs: ^10.0.25
   checksum: 0f481992235b330a3f2f6701205f3943179e0628040b8b53ca5f78dee7549de19024c47c12456b20e00d4f4377d4be0c36df1029092d0612434df322ce31f026
+  languageName: node
+  linkType: hard
+
+"cdktf@npm:0.9.0":
+  version: 0.9.0
+  resolution: "cdktf@npm:0.9.0"
+  dependencies:
+    archiver: 5.3.0
+    json-stable-stringify: ^1.0.1
+  peerDependencies:
+    constructs: ^10.0.25
+  checksum: 35c2b87307d06ab3455cac4b512ab0d7250ebef1ceb0039c13d4f38d5f49f929825196d21aa9d46da82892754f14387012ee1961aba2fb2c28545ae6986b4fed
   languageName: node
   linkType: hard
 
@@ -14733,6 +14745,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"json-stable-stringify@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "json-stable-stringify@npm:1.0.1"
+  dependencies:
+    jsonify: ~0.0.0
+  checksum: 65d6cbf0fca72a4136999f65f4401cf39a129f7aeff0fdd987ac3d3423a2113659294045fb8377e6e20d865cac32b1b8d70f3d87346c9786adcee60661d96ca5
+  languageName: node
+  linkType: hard
+
 "json-stringify-safe@npm:^5.0.1, json-stringify-safe@npm:~5.0.1":
   version: 5.0.1
   resolution: "json-stringify-safe@npm:5.0.1"
@@ -14784,6 +14805,13 @@ __metadata:
     graceful-fs:
       optional: true
   checksum: 7af3b8e1ac8fe7f1eccc6263c6ca14e1966fcbc74b618d3c78a0a2075579487547b94f72b7a1114e844a1e15bb00d440e5d1720bfc4612d790a6f285d5ea8354
+  languageName: node
+  linkType: hard
+
+"jsonify@npm:~0.0.0":
+  version: 0.0.0
+  resolution: "jsonify@npm:0.0.0"
+  checksum: d8d4ed476c116e6987a460dcb82f22284686caae9f498ac87b0502c1765ac1522f4f450a4cad4cc368d202fd3b27a3860735140a82867fc6d558f5f199c38bce
   languageName: node
   linkType: hard
 
