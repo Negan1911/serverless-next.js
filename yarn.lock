@@ -6068,7 +6068,7 @@ __metadata:
     "@sls-next/lambda-at-edge": "link:../../libs/lambda-at-edge"
     "@types/fs-extra": 9.0.13
     aws-cdk: ^2.9.0
-    aws-cdk-lib: ^2.3.0
+    aws-cdk-lib: ^2.10.0
     constructs: ^10.0.46
     fast-glob: 3.2.11
     fs-extra: 9.1.0
@@ -6076,7 +6076,7 @@ __metadata:
     rimraf: 3.0.2
     typescript: 4.5.5
   peerDependencies:
-    aws-cdk-lib: ^2.3.0
+    aws-cdk-lib: ^2.10.0
     constructs: ^10.0.46
   languageName: unknown
   linkType: soft
@@ -7850,14 +7850,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"aws-cdk-lib@npm:^2.3.0":
-  version: 2.3.0
-  resolution: "aws-cdk-lib@npm:2.3.0"
+"aws-cdk-lib@npm:^2.10.0":
+  version: 2.10.0
+  resolution: "aws-cdk-lib@npm:2.10.0"
   dependencies:
     "@balena/dockerignore": ^1.0.2
     case: 1.6.3
     fs-extra: ^9.1.0
-    ignore: ^5.1.9
+    ignore: ^5.2.0
     jsonschema: ^1.4.0
     minimatch: ^3.0.4
     punycode: ^2.1.1
@@ -7865,7 +7865,7 @@ __metadata:
     yaml: 1.10.2
   peerDependencies:
     constructs: ^10.0.0
-  checksum: acf2db25c68de36a21596b976ad2769fa56ebbbb7c0fbdb3c0903bf76ac05b6308c6843f12056e0b2c2c28736953f542fca1df591cc01c3941ad3eb8e5004df1
+  checksum: 90e748d09388f42ad2e40e48688bdd7912a8f08beef420d0aa18ae1b08d18b8ae8c70c00b86c8ce1de14844b433600564efbffe858f3710256384f606e1433f8
   languageName: node
   linkType: hard
 
@@ -12542,13 +12542,6 @@ __metadata:
   version: 5.1.8
   resolution: "ignore@npm:5.1.8"
   checksum: 967abadb61e2cb0e5c5e8c4e1686ab926f91bc1a4680d994b91947d3c65d04c3ae126dcdf67f08e0feeb8ff8407d453e641aeeddcc47a3a3cca359f283cf6121
-  languageName: node
-  linkType: hard
-
-"ignore@npm:^5.1.9":
-  version: 5.1.9
-  resolution: "ignore@npm:5.1.9"
-  checksum: 6f6b2235f4e63648116c5814f76b2d3d63fae9c21b8a466862e865732f59e787c9938a9042f9457091db6f0d811508ea3c8c6a60f35bafc4ceea08bbe8f96fd5
   languageName: node
   linkType: hard
 
